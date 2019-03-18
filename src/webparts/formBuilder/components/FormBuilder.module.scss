@@ -1,0 +1,49 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.appPannel {
+  @include ms-Grid-col;
+  @include ms-md4;
+  background-color: $ms-color-themeDark;
+  margin: 0px;
+  padding: 20px;
+  overflow-y: auto
+}
+
+.appDropArea {
+  @include ms-Grid-col;
+  @include ms-md8;
+  background-color: $ms-color-themePrimary;
+  margin: 0px;
+  padding: 20px;
+  overflow-y: auto
+}
+
+.appPreview {
+  @include ms-Grid-col;
+  @include ms-md12;
+  background: #eee;
+  margin: 0px;
+  padding: 20px;
+}
+
+.item {
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  background: white;
+}
+
+.item2 {
+  margin: 5px;
+  padding: 10px;
+  background: white;
+}
+
+
+
+.head {
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  color: $ms-color-white;
+}
