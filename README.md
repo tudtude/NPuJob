@@ -1,26 +1,14 @@
-## test-webpart
+## NPu Project
 
-This is where you include your WebPart documentation.
+This is private project then it will not inclused any explain document 
 
-### Building the code
+### Implement step
 
 ```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+git clone https://github.com/tudtude/NPuJob.git
+cd NPuJob
+npm i 
+gulp serve
 ```
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+#### Enjoin
